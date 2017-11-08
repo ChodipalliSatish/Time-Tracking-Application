@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "449978555126",
+    "firebase_url": "https://signinapp-ca5e2.firebaseio.com",
+    "project_id": "signinapp-ca5e2",
+    "storage_bucket": "signinapp-ca5e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449978555126:android:51d184a44c784b19",
+        "android_client_info": {
+          "package_name": "com.example.computer.signinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449978555126-pkqtu8eosr78ac0pvo2ht56mclb4sash.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlTOqfQv8gAVk_pD4ryRQpypUBN-B8z10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

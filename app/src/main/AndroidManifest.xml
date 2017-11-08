@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.computer.signinapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BeaconApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_access_time_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signinActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity android:name=".signupActivity" />
+        <activity android:name=".SuccessReg" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".AdminSignIn" />
+        <activity android:name=".BeaconTrigger" />
+        <activity android:name=".DailyActivity" />
+        <activity android:name=".WeeklyActivity" />
+        <activity android:name=".MonthlyActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".Searchresults" />
+        <activity android:name=".DailyRes" />
+        <activity android:name=".Logout" />
+        <activity android:name=".Weeklyres" />
+        <activity android:name=".BeaconDetails" />
+        <activity android:name=".BeaconAdd"></activity>
+    </application>
+
+</manifest>

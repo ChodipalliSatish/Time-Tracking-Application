@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.computer.signinapp.DailyActivity">
+
+    <TextView
+        android:id="@+id/weekly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly Activity "
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorgray"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/date1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBlack"
+            android:hint="YYYY/MM/DD"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorgray"
+            android:textColorHint="@color/colorgray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"/>
+        <EditText
+            android:id="@+id/date2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorBlack"
+            android:textAlignment="center"
+            android:hint="YYYY/MM/DD"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/colorgray"
+            android:textColorHint="@color/colorgray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Give the date as mention in field!!"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/getweekly"
+            android:text="Get Activity"
+            android:textAlignment="center"
+            android:onClick=""
+            android:background="@drawable/drawable_shapebutton"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

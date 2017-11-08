@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.computer.signinapp.signupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="Beacon Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorgray"
+        android:textColorHint="@color/colorgray"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Desc"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:hint="Beacon Desc:"
+                android:inputType="text"
+                android:layout_margin="20dp">
+
+            </EditText>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Major"
+                android:hint="Beacon Major Number:"
+                android:inputType="text"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Minor"
+                android:hint="Beacon Minor Number:"
+                android:inputType="text"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/Bname"
+                android:hint="Beacon Name:"
+                android:inputType="text"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorgray"
+                android:textColorHint="@color/colorgray"
+                android:id="@+id/UUID"
+                android:hint="Beacon UUID:"
+                android:inputType="text"
+                android:layout_margin="20dp">
+
+            </EditText>
+        </android.support.constraint.ConstraintLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/drawable_shapebutton"
+            android:layout_marginTop="10dp"
+            android:text="Save Details"
+            android:id="@+id/save"
+            android:onClick = ""/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
